@@ -1,0 +1,77 @@
+
+.product {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.product ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.product ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.product ul li img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.product ul li i {
+  font-size: 1.4rem;
+  color: #ff6f91;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.product ul li i:hover {
+  color: #e85c7c;
+}
+
+.product ul li button {
+  background-color: #ff6f91;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.product ul li button:hover {
+  background-color: #e85c7c;
+}
+.product ul li p{
+  color: blue;
+}
+.proicon{
+  margin-bottom: 8px;
+}
+.heart{
+  margin-left: 18px;
+}
