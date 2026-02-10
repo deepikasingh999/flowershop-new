@@ -15,7 +15,7 @@ body{
 }
 
 .nav.dark-nav {
-  background-color: plum; /* or any color you want */
+  background-color: plum; 
   color: white;
 }
 
@@ -83,7 +83,9 @@ ul{
     align-items: flex-start;
     padding: 10px;
   }
-
+.nav.dark-nav {
+  background-color: transparent;}
+  
   .content {
     flex-direction: column;
     align-items: flex-start;
@@ -99,26 +101,29 @@ ul{
   .content ul li {
     margin: 10px 0;
     font-size: 18px;
+    color: black;
   }
 
-  .icon {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    margin-top: 10px;
-  }
+ .icon {
+  position: absolute;   
+  top: 0;               
+  right: 0;             
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end;  
+  margin: 10px;
+}
 
-  .icon ul {
-    flex-direction: row;
-    width: 100%;
-    padding-left: 0;
-  }
+.icon ul {
+  flex-direction: column;
+  padding: 0;
+  margin: 35px;
+}
 
-  .icon ul li {
-    margin: 10px 0;
-    font-size: 18px;
-  }
-
+.icon ul li {
+  margin: 8px 0;        
+  font-size: 18px;
+}
   .navimg {
     margin-bottom: 10px;
   }

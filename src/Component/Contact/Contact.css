@@ -21,7 +21,7 @@ body {
 position: absolute;
     bottom: -2700px;
   border: 1px solid #e0b1cb;
-  background-color: #fff0f5;
+  background-color: #f8e8f0;
   color: #333;
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@ form button{
     margin-top: 15px;
     padding: 5px;
     border-radius: 25px;
-    background-color: blue;
+    background-color: #d6b6c7;
 }
 form textarea{
     padding: 10px;
@@ -41,3 +41,22 @@ form textarea{
     align-items: center;
     justify-content: center;
 }
+
+
+@media (max-width: 768px) {
+    .formapper {
+  display: grid;
+  padding: 20px;
+  width: 400px;
+   right: 150px;
+position: absolute;
+    bottom: -4200px;
+  border: 1px solid #e0b1cb;
+  background-color: #f8e8f0;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);}
+
+}
+
+
